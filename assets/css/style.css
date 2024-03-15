@@ -283,17 +283,15 @@ button {
 .about__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     align-items: center;
+    row-gap: 146px;
 }
 
 .about__media {
     position: relative;
-    align-self: flex-end;
 }
 
 .about__label {
-    margin-top: 169px;
     color: #5e6085;
     font-family: Sora, sans-serif;
     font-size: 1.6rem;
@@ -418,10 +416,6 @@ button {
     z-index: -1;
 }
 
-.about__media-bottom,
-.about__content-bottom {
-    margin-top: 146px;
-}
 .about__img-wrap-bottom {
     position: relative;
     width: 458px;
